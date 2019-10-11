@@ -1,0 +1,46 @@
+.appMain {
+  font-family: arial;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.appHeader {
+  text-align: center;
+}
+
+.selectedTrackContainer {
+  border: 3px solid black;
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem;
+}
+
+.trackList {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+}
+
+.trackContainer {
+  padding: 1rem;
+  padding-top: 0.5rem;
+  width: 100%;
+}
+
+.trackSectionData {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.trackSmallText {
+  font-size: 0.75em;
+}
+
+.trackTextPaddingLeft {
+  padding-left: 0.75em;
+}
