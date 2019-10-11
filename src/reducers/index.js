@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
-import tracks from './tracksList';
+import tracksList from './tracksList';
 import selectedTrack from './selectedTrack';
 
 const rootReducer = combineReducers({
-  tracks,
+  tracksList,
   selectedTrack,
 });
 

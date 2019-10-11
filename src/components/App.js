@@ -10,7 +10,7 @@ class App extends Component {
     super(props);
   }
   render() {
-    const { selectedTrack, tracks } = this.props;
+    const { selectedTrack, allTracks } = this.props;
     return (
       <React.Fragment>
         <header className="appHeader">
@@ -18,7 +18,7 @@ class App extends Component {
         </header>
         <main className="appMain">
           <SelectedTrackHeader track={selectedTrack}/>
-          <Tracklist tracks={tracks} />
+          <Tracklist tracks={allTracks} />
         </main>
       </React.Fragment>
     )
@@ -27,7 +27,7 @@ class App extends Component {
 
 const mapStateToProps = state => {
   return {
-    tracks: state.tracks,
+    allTracks: state.tracksList.all,
     selectedTrack: state.selectedTrack
   }
 }

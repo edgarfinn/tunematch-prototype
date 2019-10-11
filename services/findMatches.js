@@ -51,4 +51,4 @@ const getKeyMatches = key => {
   matches.relativeFourth = getRelativeFourth(note, scale);
   matches.relativeScale = getRelativeScale(note, scale);
   return matches;
-}
+};

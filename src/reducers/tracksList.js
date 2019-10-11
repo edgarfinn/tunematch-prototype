@@ -1,5 +1,10 @@
 import data from '../../data/data.json';
-const initialState = data;
+const initialState = {
+  all: data,
+  relativeFifth: [],
+  relativeFourth: [],
+  relativeScale: []
+};
 
 export default (state = initialState, action) => {
   switch (action.type) {
